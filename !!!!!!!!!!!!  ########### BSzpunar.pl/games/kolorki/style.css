@@ -1,0 +1,79 @@
+body
+{
+	background-color: #000;
+	color: white;
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div
+{
+	flex-basis: 15%;
+	flex-grow: 1;
+	height: 33.33vh;
+	border: 1px solid white;
+}
+
+@media (orientation: portrait)
+{
+	div
+	{
+		flex-basis: 30%;
+		height: 16.66vh;
+	}
+}
+
+.red
+{
+	background-color: red;
+}
+
+.blue
+{
+	background-color: blue;
+}
+
+.yellow
+{
+	background-color: yellow;
+}
+
+.green
+{
+	background-color: green;
+}
+
+.gray
+{
+	background-color: gray;
+}
+
+.lightgreen
+{
+	background-color: lightgreen;
+}
+
+.cadetblue
+{
+	background-color: cadetblue;
+}
+
+.violet
+{
+	background-color: violet;
+}
+
+.hidden
+{
+	background-color: #000;
+}
+
+.off
+{
+	background-color: #eee;
+}

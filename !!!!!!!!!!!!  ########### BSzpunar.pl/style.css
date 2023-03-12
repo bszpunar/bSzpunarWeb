@@ -1,0 +1,255 @@
+body
+{
+	background-color: #000000;
+	color: white;
+	font-size: 16px;
+}
+
+#MyThinks > input{
+	background-color: gray;
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	top: 20px;
+	left: 20px;
+}
+
+#MyThinks > input:hover{
+	background-color: red;
+}
+
+.container
+{
+	width: 1200px;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 610px;
+}
+
+#logo
+{
+	width:100%;
+	font-family: 'Zen Tokyo Zoo', cursive;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 3px;
+}
+
+#logo a
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+#logo a:hover
+{
+	
+	color: green;
+	cursor: pointer;
+	
+	
+}
+
+.pasek
+{
+	width: 1200px;
+	border: 1px solid white;
+	
+}
+
+.pasek2
+{
+	margin-top: 50px;
+	width: 1200px;
+	border: 1px solid green;
+	
+}
+
+#topnav
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-family: 'Teko', sans-serif;
+	float: left;
+}
+
+ol
+{
+	display: inline-block;
+	list-style-type: none;
+}
+
+ol > li
+{
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 2px solid white;
+}
+
+ol > li:first-child
+{
+	border-left:2px solid white;
+}
+
+ol a
+{
+	color: white;
+	padding: 1px 7px;
+	text-decoration: none;
+	font-size: 26px;
+}
+
+ol a:hover
+{
+	color: green;
+	-webkit-box-shadow: 0px 0px 20px 10px #fff; 
+	box-shadow: 0px 0px 20px 10px #fff;
+	border: 1px solid white;
+	border-radius: 5px;
+	
+}
+
+.artykul
+{
+	width: 800px;
+
+}
+
+.artykul > header
+{
+	width: 200px;
+	font-size:32px;
+	font-family: 'Teko', sans-serif;
+	color: green;
+	text-align: left;
+	border-bottom: 1px solid green;
+	
+}
+
+.artykul h1
+{
+	text-align: left;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.artykul h2
+{
+	text-align: left;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+artykul h3
+{
+	text-align: left;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+ol > li > ul
+{
+	position: absolute;
+	list-style-type: none;
+	text-align: left;
+	display: none;
+	background-color: #000;
+	
+}
+
+ol > li > ul > li:first-child
+{
+	border-left: none;
+}
+
+
+ol > li > ul > li
+{
+	display: inline-block;
+	border: none;
+
+}
+
+ol > li > ul > li a
+{
+	font-size: 18px;
+	text-align: left;
+}
+
+ol > li > ul > li a:hover
+{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+.stopka
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: sticky;
+	top: 100%;
+}
+
+.napis
+{
+	text-align: center;
+	color: green;
+	font-family: 'Teko', sans-serif;
+	font-size: 26px;
+	margin-top: 15px;
+	bottom: 0;
+}
+
+.runy
+{
+	width: 1200px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photo
+{
+	float:left;
+	padding: 50px;
+}
+
+
+#wyszukiwarka{
+	position: absolute;
+	top: 20px;
+	left: 1080px;
+}
+
+#wyszukiwarka > input[type=text]{
+	background-color: #000;
+	color: white;
+	border: none;
+}
+#wyszukiwarka > input[type=submit]{
+	position: absolute;
+	top: 0;
+	background: url(img/ikonaSzukaj.png) no-repeat;
+	cursor: pointer;
+	width: 24px;
+	height: 24px;
+	border: none;
+}
+
+

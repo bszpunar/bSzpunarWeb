@@ -1,0 +1,37 @@
+body
+{
+	background-color: #000;
+	color: white;
+}
+
+#box
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+canvas
+{
+	border: 2px solid purple;
+}
+
+#info
+{
+	width: 300px;
+	height: 100px;
+	margin-top: 100px;
+	margin-left: 100px;
+	float: left;
+	border: 1px solid purple;
+	border-radius: 15px;
+	text-align: center;
+	color: green;
+	font-size: 25px;
+}
+
+input:[submit]
+{
+	border: 1px solid white;
+}

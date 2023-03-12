@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 32px;
+}
+
+body{
+	background-color: #000;
+}
+
+header{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header > h1{
+	letter-spacing: 5px;
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 50px;
+}
+
+#dane{
+	width: 500px;
+	margin-left: 250px;
+	border: 1px solid white;
+}
+
+#dane > h1{
+	color: white;
+	font-size: 24px;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 2px;
+	margin-left: 15px;
+}
+
+input[type=text]
+{
+	margin-left: 15px;
+	width: 150px;
+	height: 25px;
+	background-color: #000;
+	margin-bottom: 20px;
+	color: white;
+	font-size: 20px;
+	border: 1px solid white;
+	text-align: center;
+}
+
+
+input[type=text]:hover
+{
+	cursor: pointer;
+	border: 1px solid green;
+}
+
+input[type=text]:focus
+{
+	border-radius: none;
+}
+
+input[type=submit]
+{
+	margin-left: 250px;
+	width: 100px;
+	height: 30px;
+	margin-top: 50px;
+	font-size: 19px;
+	background-color: #000;
+	letter-spacing: 1px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+input[type=submit]:hover
+{
+	cursor: pointer;
+	color: green;
+	border: 1px solid green;
+}
+
+#score{
+	color: white;
+}
+
+#score{
+	border: 1px solid white;
+	height: 30px;
+	width: 300px;
+	margin-top: -30px;
+	margin-left: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	font-family: 'Bebas Neue', cursive;
+	font-size: 26px;
+	
+}
